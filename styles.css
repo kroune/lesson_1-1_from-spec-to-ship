@@ -496,6 +496,43 @@ h3 {
   background: var(--surface-muted);
 }
 
+.language-card {
+  padding: 0.35rem 1.45rem;
+}
+
+.language-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.language-list li {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.language-list li:first-child {
+  border-top: 0;
+}
+
+.language-list p {
+  margin-bottom: 0;
+}
+
+.language-list strong {
+  font-weight: 750;
+}
+
+.language-level {
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.language-note {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
 .contact-section {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(240px, 0.8fr);
